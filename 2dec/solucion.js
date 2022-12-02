@@ -11,7 +11,7 @@ const countHours = (year, holidays) => {
 
   for (let holiday of holidays) {
     date.setTime(Date.parse(holiday + '/' + year));
-    weeksDays.includes(date.getDay()) ? (hours += 2) : hours;
+    weeksDays.includes(date.getDay()) && (hours += 2);
   }
   return hours;
 };
