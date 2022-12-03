@@ -37,3 +37,4 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 
 * [✔] Dia 1: Envolver Regalos
 * [✔] Dia 2: Dias Festivos
+* [✔] Dia 3: Regalos y Renos
