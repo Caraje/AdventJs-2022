@@ -35,6 +35,9 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 
 ## **Retos realizados**
 
-* [✔] Dia 1: Envolver Regalos
-* [✔] Dia 2: Dias Festivos
-* [✔] Dia 3: Regalos y Renos
+* [✔] Dia 1: ¡Automnatizando envolver regalos de navidad!
+* [✔] Dia 2: Nadie quiere hacer horas extras
+* [✔] Dia 3: ¿Cuantas cajas de regalos puede llevar Santa?
+* [✔] Dia 4: Una caja dentro de otra caja y otra...
+* [✔] Dia 5: Optimizando viajes de Santa
+* [✔] Dia 6: Creando Adornos Navideños
