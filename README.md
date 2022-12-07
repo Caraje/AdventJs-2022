@@ -41,3 +41,4 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 * [✔] Dia 4: Una caja dentro de otra caja y otra...
 * [✔] Dia 5: Optimizando viajes de Santa
 * [✔] Dia 6: Creando Adornos Navideños
+* [✔] Dia 7: Haciendo inventario de Regalos
