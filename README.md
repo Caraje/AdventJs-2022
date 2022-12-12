@@ -46,3 +46,4 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 * [✔] Dia 9: Las locas luces de navidad
 * [✔] Dia 10: El salto del trineo de Papá Noel
 * [✔] Dia 11: Papá Noel  es Scrum Master
+* [✔] Dia 12: Trineos eléctricos, ¡Guau!
