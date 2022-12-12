@@ -2,7 +2,7 @@ console.clear();
 
 function countTime(leds) {
   const joined = leds.join('').split('1');
-  joined[0] += joined.pop();
+  joined[0] = joined[0] + joined.pop();
   joined.sort((a, b) => b.length - a.length);
   return joined[0].length * 7;
 }

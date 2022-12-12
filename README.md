@@ -43,4 +43,6 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 * [✔] Dia 6: Creando Adornos Navideños
 * [✔] Dia 7: Haciendo inventario de Regalos
 * [✔] Dia 8: Necesitamos un mecanico
-* [✔] Dia 8: LOas Locas luces de navidad
+* [✔] Dia 9: Las locas luces de navidad
+* [✔] Dia 10: El salto del trineo de Papá Noel
+* [✔] Dia 11: Papá Noel  es Scrum Master
