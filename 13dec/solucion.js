@@ -4,6 +4,7 @@ function getFilesToBackup(lastBackup, changes) {
   // Primero ordenamos los arrays por orden de mayor a menor
   // le pasamos un map para ver cuales son superiores al numero del ultimo change y los que coindian, metemos el ID en un nuevo Array
   // finalmente hacemos un new Set para que los ids sevueltos sean unicos
+  let userIds = [];
   changes
     .sort((a, b) => a[0] - b[0])
     .map((change) => {
