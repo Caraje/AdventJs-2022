@@ -49,3 +49,4 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 * [✔] Dia 12: Trineos eléctricos, ¡Guau!
 * [✔] Dia 13: Backup de los archivos de papá Noel
 * [✔] Dia 14: El Mejor Camino
+* [✔] Dia 15: Decorando el arbol de navidad
