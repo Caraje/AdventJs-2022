@@ -9,10 +9,12 @@ function getFilesToBackup(lastBackup, changes) {
     .sort((a, b) => a[0] - b[0])
     .map((change) => {
       if (change[1] > lastBackup) {
-        userIds.push(change[0]);
+        userIds += change[0];
+        // userIds.push(change[0]);
       }
     });
-  return [...new Set([...userIds])];
+  let ids = [...new Set([...userIds])];
+  return ids;
 }
 
 console.log(
