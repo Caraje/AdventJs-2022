@@ -50,3 +50,5 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 * [✔] Dia 13: Backup de los archivos de papá Noel
 * [✔] Dia 14: El Mejor Camino
 * [✔] Dia 15: Decorando el arbol de navidad
+* [✔] Dia 16: Arreglando las cartas de Papa Noel
+* [✔] Dia 15: Llevando los regalos en sacos
