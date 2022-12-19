@@ -22,4 +22,4 @@ console.log(dryNumber(1, 15)); // [1,10,11,12,13,14,15]
 
 // console.log(dryNumber(4, 45)); // [4,14,24,34,40,41,42,43,44,45]
 
-// console.log(dryNumber(9, '9')); // []
+// console.log(dryNumber(9, 8)); // []

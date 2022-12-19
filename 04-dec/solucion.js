@@ -4,7 +4,6 @@ function fitsInOneBox(boxes) {
   return boxes
     .sort((boxA, boxB) => boxB.l * boxB.w * boxB.h - boxA.l * boxA.w * boxA.h)
     .every((box, index) => {
-
       if (!boxes[index + 1]) return true;
       return (
         box.l > boxes[index + 1].l &&
