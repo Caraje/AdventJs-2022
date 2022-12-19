@@ -51,4 +51,5 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 * [✔] Dia 14: El Mejor Camino
 * [✔] Dia 15: Decorando el arbol de navidad
 * [✔] Dia 16: Arreglando las cartas de Papa Noel
-* [✔] Dia 15: Llevando los regalos en sacos
+* [✔] Dia 17: Llevando los regalos en sacos
+* [✔] Dia 18: ¡Nos quedamos sin tinta!
