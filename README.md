@@ -54,7 +54,7 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 * [✔] Dia 17: Llevando los regalos en sacos
 * [✔] Dia 18: ¡Nos quedamos sin tinta!
 * [✔] Dia 19: Ordenando regalos
-* [] Dia 20:
+* [✔] Dia 20: Más Viajes retadores
 * [] Dia 21:
 * [] Dia 22:
 * [] Dia 23:
