@@ -10,32 +10,31 @@ function printTable(gifts) {
   let maxLengthquantity = 8;
   let giftList = [];
 
-  gifts.map((gift) => {
-    if (maxLengthName < gift.name.length) {
-      maxLengthName = gift.name.length;
-    }
-    if (maxLengthquantity < gift.quantity.toString().length) {
-      maxLengthquantity = gift.quantity.toString().length;
-    }
+  gifts.forEach((gift) => {
+    maxLengthName < gift.name.length && (maxLengthName = gift.name.length);
+    maxLengthquantity < gift.quantity.toString().length &&
+      (maxLengthquantity = gift.quantity.toString().length);
   });
 
-  const lineTop = '+'.repeat(maxLengthName + maxLengthquantity + 7);
+  const maxWidthLine = maxLengthName + maxLengthquantity;
   const nameTitle = `Gift${' '.repeat(maxLengthName - 4)}`;
   const quantityTitle = `Quantity${' '.repeat(maxLengthquantity - 8)}`;
+
+  const lineTop = '+'.repeat(maxWidthLine + 7);
   const head = `| ${nameTitle} | ${quantityTitle} |`;
   const sep = `| ${'-'.repeat(maxLengthName)} | ${'-'.repeat(
     maxLengthquantity
   )} |`;
-  const lineBottom = '*'.repeat(maxLengthName + maxLengthquantity + 7);
-  for (let i = 0; i < gifts.length; i++) {
+  const lineBottom = '*'.repeat(maxWidthLine + 7);
+
+  gifts.forEach((el) => {
     giftList.push(
-      `| ${gifts[i].name}${' '.repeat(
-        maxLengthName - gifts[i].name.length
-      )} | ${gifts[i].quantity}${' '.repeat(
-        maxLengthquantity - gifts[i].quantity.toString().length
-      )} |`
+      `| ${el.name}${' '.repeat(maxLengthName - el.name.length)} | ${
+        el.quantity
+      }${' '.repeat(maxLengthquantity - el.quantity.toString().length)} |`
     );
-  }
+  });
+
   return [lineTop, head, sep, giftList.join('\n'), lineBottom].join('\n');
 }
 
@@ -44,6 +43,7 @@ function printTable(gifts) {
                         TESTS
 =======================================================
 */
+console.log('\n\n\n=========================================\n\n\n');
 
 console.log(
   printTable([
@@ -51,6 +51,7 @@ console.log(
     { name: 'Book Learn Web Dev', quantity: 23531 },
   ])
 );
+console.log('\n\n\n=========================================\n\n\n');
 
 // "++++++++++++++++++++++++++++++++++++++\n| Gift               | Quantity      |\n| ------------------ | ------------- |\n| PlayStation 5      | 9234782374892 |\n| Book Learn Web Dev | 23531         |\n**************************************"
 
@@ -61,13 +62,16 @@ console.log(
     { name: 'Book', quantity: 3 },
   ])
 );
+console.log('\n\n\n=========================================\n\n\n');
 
 // "+++++++++++++++++++\n| Gift | Quantity |\n| ---- | -------- |\n| Game | 2        |\n| Bike | 1        |\n| Book | 3        |\n*******************"
 
 console.log(printTable([{ name: 'Game', quantity: 10000 }]));
+console.log('\n\n\n=========================================\n\n\n');
 //"+++++++++++++++++++\n| Gift | Quantity |\n| ---- | -------- |\n| Game | 10000    |\n*******************"
 
 console.log(printTable([{ name: 'Game', quantity: 1234567890 }]));
+console.log('\n\n\n=========================================\n\n\n');
 //"+++++++++++++++++++++\n| Gift | Quantity   |\n| ---- | ---------- |\n| Game | 1234567890 |\n*********************"
 
 console.log(
@@ -76,6 +80,7 @@ console.log(
     { name: 'Mic', quantity: 123 },
   ])
 );
+console.log('\n\n\n=========================================\n\n\n');
 //"+++++++++++++++++++\n| Gift | Quantity |\n| ---- | -------- |\n| Toy  | 12       |\n| Mic  | 123      |\n*******************"
 
 /* 
