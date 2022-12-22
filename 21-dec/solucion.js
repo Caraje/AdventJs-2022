@@ -17,21 +17,28 @@ function printTable(gifts) {
   });
 
   const maxWidthLine = maxLengthName + maxLengthquantity;
-  const nameTitle = `Gift${' '.repeat(maxLengthName - 4)}`;
-  const quantityTitle = `Quantity${' '.repeat(maxLengthquantity - 8)}`;
+  const nameTitle = 'Gift' + ' '.repeat(maxLengthName - 4);
+  const quantityTitle = 'Quantity' + ' '.repeat(maxLengthquantity - 8);
 
   const lineTop = '+'.repeat(maxWidthLine + 7);
-  const head = `| ${nameTitle} | ${quantityTitle} |`;
-  const sep = `| ${'-'.repeat(maxLengthName)} | ${'-'.repeat(
-    maxLengthquantity
-  )} |`;
+  const head = '| ' + nameTitle + ' | ' + quantityTitle + ' |';
+  const sep =
+    '| ' +
+    '-'.repeat(maxLengthName) +
+    ' | ' +
+    '-'.repeat(maxLengthquantity) +
+    ' |';
   const lineBottom = '*'.repeat(maxWidthLine + 7);
 
   gifts.forEach((el) => {
     giftList.push(
-      `| ${el.name}${' '.repeat(maxLengthName - el.name.length)} | ${
-        el.quantity
-      }${' '.repeat(maxLengthquantity - el.quantity.toString().length)} |`
+      '| ' +
+        el.name +
+        ' '.repeat(maxLengthName - el.name.length) +
+        ' | ' +
+        el.quantity +
+        ' '.repeat(maxLengthquantity - el.quantity.toString().length) +
+        ' |'
     );
   });
 
