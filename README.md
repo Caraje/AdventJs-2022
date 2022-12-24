@@ -57,5 +57,5 @@ Además te puedes unir a su comunidad en **[Discord](https://t.co/XruHkD62j3).**
 * [✔] Dia 20: Más Viajes retadores
 * [✔] Dia 21: Creando la tabla de regalos 
 * [✔] Dia 22: La iluminación en sintonia
-* [] Dia 23:
+* [] Dia 23: Compilador de Papa Noel
 * [] Dia 24:
